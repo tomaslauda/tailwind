@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.card{
+    @apply bg-green-600 text-purple-800 text-center p-10 mt-10 w-1/2 mx-auto 
+    md:bg-blue-900 p-10 mt-5 shadow-lg shadow-orange-400
+}
